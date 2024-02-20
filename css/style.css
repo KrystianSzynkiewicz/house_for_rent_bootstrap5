@@ -115,10 +115,7 @@
     cursor: pointer;
   }
 
-
-  /* ROSPONSIVE */
-
-  
+/* ROSPONSIVE */
 
 /* BIG */
 @media only screen and (min-width: 751px) {
@@ -177,8 +174,6 @@
   }
 
 }
-
-
 
 /* BURGER BUTTON */
 .wrapper{
