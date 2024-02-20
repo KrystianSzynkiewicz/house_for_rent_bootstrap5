@@ -41,7 +41,7 @@
   .header-container {
     /* background-color: red; */
     /* margin-top: 100px; */
-    /* background: url("https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-1080x675.jpg"); */
+    /* background: url(""); */
     width: 100%;
   }
 
@@ -108,26 +108,75 @@
     color: var(--links-color);
   }
 
+  /* icons */
+
+  .color-filter-hover {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+  /* ROSPONSIVE */
 
   
 
-/* SMALL */
-@media only screen and (max-width: 600px) {
-  .big-menu {
-    display: none;
-  }
-  #myVideo {
-    height: 100vh;
-  }
-}
 /* BIG */
-@media only screen and (min-width: 601px) {
+@media only screen and (min-width: 751px) {
   .small-menu {
     display: none;
   }
 
 }
 
+@media only screen and (max-width: 1450px) {
+
+  .header-content {
+    top: 30%;
+  }
+
+}
+@media only screen and (max-width: 1200px) {
+
+  .header-content {
+    top: 20%;
+  }
+
+}
+@media only screen and (max-width: 1050px) {
+
+  .header-content {
+    top: 15%;
+    transform: scale(0.9);
+  }
+
+}
+@media only screen and (max-width: 900px) {
+
+  .header-content {
+    top: 10%;
+    transform: scale(0.7);
+  }
+
+}
+
+/* SMALL */
+@media only screen and (max-width: 750px) {
+  .big-menu {
+    display: none;
+  }
+  #myVideo {
+    height: 100vh;
+    object-fit: cover;
+  }
+  .header-content {
+    width: 80%;
+    left: 10%;
+    top: 210px;
+    height: 390px;
+    transform: scale(1);
+  }
+
+}
 
 
 
