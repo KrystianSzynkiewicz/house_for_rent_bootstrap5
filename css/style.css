@@ -343,3 +343,12 @@ input[type="checkbox"]{
 .logo-footer {
   object-fit: contain;
 }
+.icons-main a {
+  background-color: rgba(0, 0, 0, 0.423);
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.icons-main a:hover {
+  background-color: rgba(0, 0, 0, 0.615);
+  border-radius: 54px;
+}
