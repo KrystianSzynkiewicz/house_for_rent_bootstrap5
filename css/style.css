@@ -336,3 +336,10 @@ input[type="checkbox"]{
    transition-delay: .6s;
   transform: translateX(-100px);
 }
+.owner-img {
+  object-fit: none;
+}
+
+.logo-footer {
+  object-fit: contain;
+}
